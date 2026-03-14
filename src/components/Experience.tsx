@@ -145,7 +145,7 @@ const experiences: ExperienceItem[] = [
   {
     company: "Orange Business Maroc",
     role: "Software Engineer",
-    type: "CDD",
+    type: "CDI",
     period: "Jun 2024 — Present",
     duration: "1 yr 10 mos",
     location: "Rabat, Morocco · Hybrid",
