@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, GraduationCap, Music, Dumbbell, Globe } from "lucide-react";
+import { ExternalLink, GraduationCap, Music, Dumbbell, Globe, Camera } from "lucide-react";
 
 interface Project {
   title: string;
@@ -81,6 +81,17 @@ const projects: Project[] = [
     icon: Globe,
     iconColor: "text-sky",
     gradient: "from-sky/20 to-transparent",
+  },
+  {
+    title: "Psycho Moustache",
+    subtitle: "Photography Portfolio",
+    description:
+      "Fashion and street photography portfolio for a Casablanca-based photographer — featuring selected work, gallery showcase, and contact. Captures reality through a lens with Moroccan soul.",
+    href: "https://psycho-hazel.vercel.app/",
+    tags: ["Next.js", "Photography", "Portfolio", "Gallery", "Responsive Design"],
+    icon: Camera,
+    iconColor: "text-amber-500",
+    gradient: "from-amber-500/20 to-transparent",
   },
 ];
 
